@@ -1,0 +1,269 @@
+/* style for body */
+
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: wheat;
+  color: #0f0c0c;
+  /* Text color for non-background elements */
+}
+
+/*style for logo setting  */
+.logo {
+  float: left;
+  padding: 10px;
+}
+
+.logo img {
+  padding: 1px;
+  /* Adjust the width as needed */
+  height: auto;
+  border-radius: 50%;
+}
+
+/* style for nav bar */
+nav {
+  max-width: 100%;
+  float: right;
+  padding: 0.5em;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0.5em;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 0.8em;
+  font-size: 1.5 em;
+  transition: color 0.3s;
+  /* Add a smooth color transition */
+}
+
+nav a:hover {
+  background-color: rgba(47, 123, 228, 0.8);
+  color: white;
+  border-radius: 5px;
+  /* Change color on hover */
+}
+
+.bg-img {
+  background-image: url("../images/bg11.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-attachment: fixed;
+  color: #fff;
+  /* Text color on top of the background image */
+  text-align: center;
+  padding: 190px 0;
+  /* Adjust padding as needed */
+}
+
+.index-main {
+  padding: 20px;
+  display: block;
+  margin: 6em auto;
+  max-width: 80%;
+  background-color: rgba(47, 123, 228, 0.6);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.index-main h1 {
+  font-size: 36px;
+  color: #ffffff;
+  margin: 20px 0;
+  text-transform: uppercase;
+  /* Uppercase text */
+}
+
+.index-main button {
+  padding: 1em;
+  border: none;
+  font-size: 1.2em;
+  color: white;
+  border-radius: 0.2em;
+  background-color: rgba(47, 123, 228, 0.8);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 20px 0;
+  color: #fff;
+  /* Text color for footer */
+  background-color: rgba(47, 123, 228, 0.6);
+  padding: 10px 0;
+  border-top: 2px solid #1eff56;
+  /* Add a top border */
+}
+
+footer a {
+  color: #1eff56;
+  /* Footer link color */
+  text-decoration: none;
+  transition: color 0.3s;
+  /* Smooth color transition for footer links */
+}
+
+footer a:hover {
+  color: #fff;
+  /* Change link color on hover */
+}
+
+/* css for the special.html */
+.special_body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa33;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: #efefef38;
+  color: #fff;
+  padding: 20px 200px;
+}
+
+.welcm_week_head {
+  margin-top: 5%;
+  color: #fd0000;
+  font-size: 2.4em;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 30px 0 10px;
+  color: #f6ebeb;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+  max-width: 100%;
+  margin-top: 1em;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.product {
+  background-color: rgba(47, 123, 228, 0.4);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  overflow: hidden;
+  transition: transform 0.2s;
+  width: 900px;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+}
+
+.product img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  max-height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.product-info {
+  padding: 20px;
+}
+
+.product h3 {
+  font-size: 24px;
+  margin: 0;
+  color: black;
+}
+
+.product p {
+  font-size: 16px;
+  color: black;
+}
+
+.lists {
+  color: black;
+}
+.customer-guarantee {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(47, 123, 228, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.customer-guarantee p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.guarantee-image {
+  display: block;
+  margin: 20px auto;
+  height: 350px;
+  width: 600px;
+}
+
+.reasons {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.reasons h2 {
+  font-size: 28px;
+  color: #000000;
+  margin: 30px 0 10px;
+}
+
+.reason {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.reason img {
+  max-width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.reason p {
+  font-size: 18px;
+  color: #000000;
+}

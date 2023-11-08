@@ -112,12 +112,11 @@ footer {
   /* Text color for footer */
   background-color: rgba(47, 123, 228, 0.6);
   padding: 10px 0;
-  border-top: 2px solid #1eff56;
   /* Add a top border */
 }
 
 footer a {
-  color: #1eff56;
+  color: black;
   /* Footer link color */
   text-decoration: none;
   transition: color 0.3s;

@@ -88,6 +88,11 @@ img {
 }
 
 /* Video */
+video {
+  width: 100%;
+  height: auto;
+}
+
 .video {
   padding: 10px 0 40px;
 }
@@ -214,6 +219,16 @@ img {
   width: 10rem;
   margin-right: 1rem;
   border-radius: 20px;
+}
+
+/* Training */
+.training {
+  padding: 40px 0;
+}
+
+.training .training-heading {
+  width: 700px;
+  margin-bottom: 40px;
 }
 
 /* Footer */
@@ -507,15 +522,22 @@ textarea {
     width: 100%;
   }
 
-  .testimonials .testimonials-heading {
+  .testimonials .testimonials-heading,
+  .specials .specials-heading,
+  .training .training-heading {
     max-width: 100%;
     text-align: center;
   }
 
   .testimonials .testimonials-grid,
-  .pricing .pricing-grid,
+  .specials .specials-grid,
   .footer .footer-grid {
     grid-template-columns: 1fr;
+  }
+
+  .training {
+    overflow: auto;
+    width: 100%;
   }
 
   .footer .card {
